@@ -1,0 +1,30 @@
+{
+  "sugarlib.config.default_name.client": "Client",
+  "sugarlib.config.default_name.common": "Common",
+  "sugarlib.config.default_name.server": "Server",
+  "sugarlib.config.chooser_title": "%s - Options",
+  "sugarlib.config.config_title": "%s - %s Options",
+  "sugarlib.config.config_title.read_only": "%s - %s Options (§cRead-Only§r)",
+  "sugarlib.config.save_and_exit": "Save and Exit",
+  "sugarlib.config.save_and_exit.read_only": "§cThis config is read-only.§r\nIf you are on a server, this most likely means you don't have permission from the server administrator(s) to edit this config. If you want to edit your local config, you must not be on a multiplayer server.",
+  "sugarlib.config.reset.before_edit": "Revert",
+  "sugarlib.config.reset.before_edit.hover": "Reverts the change to the previous set value, before you edited it.",
+  "sugarlib.config.reset.original": "Reset",
+  "sugarlib.config.reset.original.hover": "Resets the change to the default value.",
+  "sugarlib.config.slow_load": "Loading the config is taking a little longer than usual.",
+  "sugarlib.config.limiter.string_bounds.min": "The value must be at least %s characters, found %s.",
+  "sugarlib.config.limiter.string_bounds.max": "The value must be at most %s characters, found %s.",
+  "sugarlib.config.boolean.false": "False",
+  "sugarlib.config.boolean.true": "True",
+  "sugarlib.config.boolean.no": "No",
+  "sugarlib.config.boolean.yes": "Yes",
+  "sugarlib.config.limiter.number_bounds.min": "The value must be at least %s, found %s.",
+  "sugarlib.config.limiter.number_bounds.max": "The value must be at most %s, found %s.",
+  "sugarlib.config.invalid.integer": "%s is not a valid integer.",
+  "sugarlib.config.invalid.decimal": "%s is not a valid number.",
+  "sugarlib.config.server_config_editing_soon": "Server configs currently cannot be edited from the client, but this feature is coming soon!",
+
+
+
+  "sugarlib.opt.display_booleans_true_false": "Display booleans as True/False"
+}

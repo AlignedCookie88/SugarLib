@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Build For All Platforms" type="CompoundRunConfigurationType">
+    <toRun name="SugarLib [:common:build]" type="GradleRunConfiguration" />
+    <toRun name="SugarLib [:fabric:build]" type="GradleRunConfiguration" />
+    <toRun name="SugarLib [:neoforge:build]" type="GradleRunConfiguration" />
+    <method v="2" />
+  </configuration>
+</component>

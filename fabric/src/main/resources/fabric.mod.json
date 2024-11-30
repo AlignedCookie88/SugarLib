@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "sugarlib",
+  "version": "${version}",
+  "name": "SugarLib",
+  "description": "",
+  "authors": [
+    "AlignedCookie88"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.alignedcookie88.sugarlib.fabric.SugarLibFabric"
+    ],
+    "client": [
+      "com.alignedcookie88.sugarlib.fabric.client.SugarLibFabricClient"
+    ],
+    "modmenu": [
+      "com.alignedcookie88.sugarlib.fabric.SugarLibModMenuApiImpl"
+    ]
+  },
+  "mixins": [
+    "sugarlib.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.8",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": ["library"],
+      "update_checker": true
+    }
+  }
+}
